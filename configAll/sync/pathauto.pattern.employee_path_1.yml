@@ -1,0 +1,14 @@
+uuid: 2ccca872-eac3-4ef7-8cf3-a8bdc956ef5d
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: employee_path_1
+label: 'Employee Path'
+type: 'canonical_entities:user'
+pattern: '/employees/[user:display-name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

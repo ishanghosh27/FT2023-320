@@ -1,0 +1,16 @@
+palette:
+  header: '#181818'
+  bg: '#000000'
+  sidebar: '#131313'
+  footer: '#272727'
+  text: '#f3f3f3'
+  headertext: '#0f50de'
+  link: '#457fff'
+  buttonbg: '#004aed'
+  buttontext: '#ffffff'
+logo: 'public://color/bones_theme-989ab95d/logo.svg'
+stylesheets:
+  - 'public://color/bones_theme-989ab95d/color.css'
+files:
+  - 'public://color/bones_theme-989ab95d/logo.svg'
+  - 'public://color/bones_theme-989ab95d/color.css'

@@ -1,0 +1,17 @@
+uuid: de1cc5a0-bd69-4465-8d49-166feaa6b548
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Project
+type: project
+description: 'Create Projects From Here'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

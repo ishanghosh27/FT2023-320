@@ -1,0 +1,21 @@
+uuid: d5fc69fd-6c6b-47e2-aaa7-f41a49416fd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_project_details
+    - node.type.project
+  module:
+    - text
+id: node.project.field_project_details
+field_name: field_project_details
+entity_type: node
+bundle: project
+label: 'Project Details'
+description: 'Enter Project Details Here'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

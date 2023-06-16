@@ -1,0 +1,43 @@
+uuid: ec4376f2-3fe8-49cd-915a-38ee68553e07
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.project
+    - taxonomy.vocabulary.designation
+    - taxonomy.vocabulary.skills
+    - taxonomy.vocabulary.tags
+  module:
+    - admin_toolbar_search
+    - node
+    - taxonomy
+    - toolbar
+id: hr
+label: HR
+weight: 5
+is_admin: null
+permissions:
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer permissions'
+  - 'administer taxonomy'
+  - 'administer users'
+  - 'change own username'
+  - 'create project content'
+  - 'create terms in designation'
+  - 'create terms in skills'
+  - 'create terms in tags'
+  - 'delete any project content'
+  - 'delete own project content'
+  - 'delete project revisions'
+  - 'delete terms in designation'
+  - 'delete terms in skills'
+  - 'delete terms in tags'
+  - 'edit any project content'
+  - 'edit own project content'
+  - 'edit terms in designation'
+  - 'edit terms in skills'
+  - 'edit terms in tags'
+  - 'use admin toolbar search'
+  - 'view user email addresses'

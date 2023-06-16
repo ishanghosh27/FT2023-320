@@ -1,0 +1,24 @@
+uuid: 842ef02b-4ae3-4c8b-8c8c-398e0d171a56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_salary
+  module:
+    - user
+id: user.user.field_salary
+field_name: field_salary
+entity_type: user
+bundle: user
+label: Salary
+description: 'Enter Your Salary'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: $
+  suffix: ' K / Year'
+field_type: float

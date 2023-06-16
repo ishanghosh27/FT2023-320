@@ -1,0 +1,22 @@
+uuid: e426a344-273a-42b9-ac53-af2a0528e21c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bones_theme
+_core:
+  default_config_hash: mTUHwPj9FTGrIzQ3cY5t6fRfECKgh3-V4VTrK8Jq4CI
+id: bones_theme_local_tasks
+theme: bones_theme
+region: content
+weight: -9
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

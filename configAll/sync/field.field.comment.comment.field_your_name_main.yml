@@ -1,0 +1,21 @@
+uuid: 920172c5-d544-4eb3-a886-179c211bebd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+    - field.storage.comment.field_your_name_main
+  module:
+    - text
+id: comment.comment.field_your_name_main
+field_name: field_your_name_main
+entity_type: comment
+bundle: comment
+label: 'Your Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

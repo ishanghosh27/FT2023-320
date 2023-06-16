@@ -1,0 +1,21 @@
+uuid: 671943d9-bdc4-4806-aa99-ca8c42a32079
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+    - field.storage.comment.field_hompage
+  module:
+    - text
+id: comment.comment.field_hompage
+field_name: field_hompage
+entity_type: comment
+bundle: comment
+label: Homepage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,21 @@
+uuid: 09336fcb-b522-4780-b962-63e3662f486f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blog_details
+    - node.type.blogs
+  module:
+    - text
+id: node.blogs.field_blog_details
+field_name: field_blog_details
+entity_type: node
+bundle: blogs
+label: 'Blog Details'
+description: 'Enter Blog Details Here'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,20 @@
+uuid: 3af74c88-2c02-4c2a-9efe-422ee25e7b9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - bones_theme
+id: userlogin
+theme: bones_theme
+region: left_sidebar
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: visible
+  provider: user
+visibility: {  }

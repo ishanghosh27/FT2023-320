@@ -1,0 +1,8 @@
+uuid: 80418779-4305-4b46-a368-c2238eb2a2f7
+langcode: en
+status: true
+dependencies: {  }
+id: sidebar-additions
+label: 'Sidebar Additions'
+description: ''
+locked: false

@@ -1,0 +1,33 @@
+uuid: ec915927-4718-4528-9137-4fdc4ce88f06
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.sidebar-additions
+  module:
+    - system
+    - user
+  theme:
+    - bones_theme
+id: sidebaradditions
+theme: bones_theme
+region: left_sidebar
+weight: 0
+provider: null
+plugin: 'system_menu_block:sidebar-additions'
+settings:
+  id: 'system_menu_block:sidebar-additions'
+  label: 'Sidebar Additions'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator

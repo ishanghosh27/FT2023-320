@@ -1,0 +1,29 @@
+uuid: 27ba6721-c66c-48e0-83b4-228c330cd552
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_blogs
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap
+id: views_block__recent_blogs_block_1_3
+theme: bootstrap
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:recent_blogs-block_1'
+settings:
+  id: 'views_block:recent_blogs-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/homepage\r\n/employees/*"

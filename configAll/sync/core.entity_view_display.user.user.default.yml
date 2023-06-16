@@ -1,0 +1,327 @@
+uuid: 118fd189-0fbd-42fd-bfa2-c64d0324e70e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_age
+    - field.field.user.user.field_company_name
+    - field.field.user.user.field_designation
+    - field.field.user.user.field_goals
+    - field.field.user.user.field_key_characteristics
+    - field.field.user.user.field_name
+    - field.field.user.user.field_phone_number
+    - field.field.user.user.field_salary
+    - field.field.user.user.field_skills
+    - field.field.user.user.layout_builder__layout
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - layout_builder
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: 'Employee Name'
+          context_mapping: {  }
+          column_widths: 75-25
+        components:
+          8c86a003-a9a1-4142-8bed-5be49874b9a3:
+            uuid: 8c86a003-a9a1-4142-8bed-5be49874b9a3
+            region: second
+            configuration:
+              id: 'field_block:user:user:user_picture'
+              label: 'Profile Picture'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: medium
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          c65232e1-6641-42b8-9561-ea1e1d10cae9:
+            uuid: c65232e1-6641-42b8-9561-ea1e1d10cae9
+            region: first
+            configuration:
+              id: 'field_block:user:user:field_designation'
+              label: Designation
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: inline
+                settings:
+                  link: false
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          53f78d15-651f-47b1-932b-fefd35a03f74:
+            uuid: 53f78d15-651f-47b1-932b-fefd35a03f74
+            region: first
+            configuration:
+              id: 'field_block:user:user:field_name'
+              label: Name
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: inline
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: 'Employee Background'
+          context_mapping: {  }
+        components:
+          a21f7896-acea-4d5d-8069-3409d8b40f6f:
+            uuid: a21f7896-acea-4d5d-8069-3409d8b40f6f
+            region: content
+            configuration:
+              id: 'field_block:user:user:field_age'
+              label: Age
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: number_integer
+                label: inline
+                settings:
+                  thousand_separator: ''
+                  prefix_suffix: true
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          5e582054-02cf-4f36-bc82-7fb5a2b543aa:
+            uuid: 5e582054-02cf-4f36-bc82-7fb5a2b543aa
+            region: content
+            configuration:
+              id: 'field_block:user:user:field_company_name'
+              label: 'Company Name'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: inline
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          d7353ceb-07ee-49fe-bc9c-bd2958b2dacb:
+            uuid: d7353ceb-07ee-49fe-bc9c-bd2958b2dacb
+            region: content
+            configuration:
+              id: 'field_block:user:user:field_salary'
+              label: Salary
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: number_decimal
+                label: inline
+                settings:
+                  thousand_separator: ''
+                  decimal_separator: .
+                  scale: 0
+                  prefix_suffix: true
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: 'Employe Tech Skills'
+          context_mapping: {  }
+        components:
+          99f7d621-7788-42f5-8670-b65f498701c2:
+            uuid: 99f7d621-7788-42f5-8670-b65f498701c2
+            region: content
+            configuration:
+              id: 'field_block:user:user:field_skills'
+              label: Skills
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: false
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: 'employee bottom'
+          context_mapping: {  }
+        components:
+          2aa195cf-47c7-4868-aa95-dc615b10a605:
+            uuid: 2aa195cf-47c7-4868-aa95-dc615b10a605
+            region: content
+            configuration:
+              id: 'field_block:user:user:field_key_characteristics'
+              label: 'Key Characteristics'
+              label_display: visible
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          807663c2-d4f0-47e3-84e1-16bc369ed582:
+            uuid: 807663c2-d4f0-47e3-84e1-16bc369ed582
+            region: content
+            configuration:
+              id: 'field_block:user:user:field_goals'
+              label: Goals
+              label_display: visible
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+_core:
+  default_config_hash: mZLyuWM9CQx2ZJVqFGSbzgFnHzudVbHBYmdU256A5Wk
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  field_age:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_company_name:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_designation:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_goals:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_key_characteristics:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_name:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_phone_number:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_salary:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_skills:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  member_for:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  user_picture:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  layout_builder__layout: true

@@ -1,0 +1,10 @@
+uuid: 2797fc36-e98e-43df-954f-0d6399e49a41
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.card
+label: 'Blog Card'
+targetEntityType: node
+cache: true

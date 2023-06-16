@@ -1,0 +1,20 @@
+uuid: b2b4139f-5376-4181-8224-c2cfec3dba52
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - text
+id: comment.field_your_name_main
+field_name: field_your_name_main
+entity_type: comment
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

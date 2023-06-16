@@ -1,0 +1,21 @@
+uuid: a5333591-efdd-4cd5-aa17-3b95abbb96bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_name
+  module:
+    - text
+    - user
+id: user.user.field_name
+field_name: field_name
+entity_type: user
+bundle: user
+label: Name
+description: 'Enter Your Name Here'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

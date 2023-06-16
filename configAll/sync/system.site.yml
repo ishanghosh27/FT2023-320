@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 44589274-060e-4019-b9a7-e01605c60e73
+name: 'Employee Portal'
+mail: employee@portal.com
+slogan: 'Empowering Your Success'
+page:
+  403: ''
+  404: /search404
+  front: /homepage
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

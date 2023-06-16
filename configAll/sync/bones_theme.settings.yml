@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: bK2kTyi6vKRVvk9i3x9l4mGs5HVipWWVyNO6cQVLBi8
+favicon:
+  use_default: true
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://drupal-logo-main_2.png'
+  use_default: false
+bones_fixed_header: 1
+bones_search_box: 1
+bones_mobile_menu: 0

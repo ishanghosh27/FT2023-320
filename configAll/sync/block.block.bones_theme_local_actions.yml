@@ -1,0 +1,20 @@
+uuid: 1513bf8c-0a0f-4e0b-b501-43fc93c344cd
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bones_theme
+_core:
+  default_config_hash: RQ1hMt-xguUEehKSellRvSIlu4ej6ruyVJDUfb87MrI
+id: bones_theme_local_actions
+theme: bones_theme
+region: content
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

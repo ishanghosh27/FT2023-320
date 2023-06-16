@@ -1,0 +1,27 @@
+uuid: b5ed570a-8af9-484d-8f13-597a5a0f843d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - bones_theme
+_core:
+  default_config_hash: _vcyEDykzH9IPSpzhBJTNF_0_M6yYk-PIbFJkI8jB5U
+id: bones_theme_main_menu
+theme: bones_theme
+region: navigation
+weight: -9
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

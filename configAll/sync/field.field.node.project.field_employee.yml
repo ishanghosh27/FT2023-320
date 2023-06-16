@@ -1,0 +1,29 @@
+uuid: 1896fd9b-e3c3-4e96-a7d6-5d4475dfedfe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_employee
+    - node.type.project
+id: node.project.field_employee
+field_name: field_employee
+entity_type: node
+bundle: project
+label: Employee
+description: 'Enter Employees Here'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: field_designation
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: false
+field_type: entity_reference

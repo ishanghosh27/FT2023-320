@@ -1,0 +1,23 @@
+uuid: ce5cb5bb-06ff-46dc-98da-c709c095ca7b
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - bones_theme
+_core:
+  default_config_hash: 3-Cz8kkooRJ20ogeTgDL3602dLTTnBHMmxDQ1paCd5M
+id: bones_theme_search
+theme: bones_theme
+region: navigation
+weight: -8
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

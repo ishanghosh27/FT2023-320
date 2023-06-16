@@ -1,0 +1,21 @@
+uuid: cfb1095e-95da-4c24-84f7-953b82557288
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_end_date
+    - node.type.project
+  module:
+    - datetime
+id: node.project.field_end_date
+field_name: field_end_date
+entity_type: node
+bundle: project
+label: 'End Date'
+description: 'Enter End Date Here'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

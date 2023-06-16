@@ -1,0 +1,21 @@
+uuid: abea01a1-04e7-4547-9260-e69e9f572807
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blog_name
+    - node.type.blogs
+  module:
+    - text
+id: node.blogs.field_blog_name
+field_name: field_blog_name
+entity_type: node
+bundle: blogs
+label: 'Blog Name'
+description: 'Enter Blog Name Here'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

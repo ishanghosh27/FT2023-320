@@ -1,0 +1,23 @@
+uuid: a8407e87-8559-4382-ad0d-405ff6a8d720
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blogs
+  module:
+    - admin_toolbar_search
+    - node
+    - toolbar
+id: blogger
+label: Blogger
+weight: 4
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'create blogs content'
+  - 'delete any blogs content'
+  - 'delete blogs revisions'
+  - 'delete own blogs content'
+  - 'edit any blogs content'
+  - 'edit own blogs content'
+  - 'use admin toolbar search'

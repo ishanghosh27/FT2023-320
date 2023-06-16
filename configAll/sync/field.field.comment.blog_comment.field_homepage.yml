@@ -1,0 +1,21 @@
+uuid: b2668d96-771a-4768-ab7d-e38acedbc191
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.blog_comment
+    - field.storage.comment.field_homepage
+  module:
+    - text
+id: comment.blog_comment.field_homepage
+field_name: field_homepage
+entity_type: comment
+bundle: blog_comment
+label: Homepage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,22 @@
+uuid: 0165d7b3-1b91-4dba-9e2d-99c66425e830
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - bones_theme
+_core:
+  default_config_hash: _AQZbxJr9b-AO7R3AWupis_m-ZXi-rZOWZOkRQdac4E
+id: bones_theme_breadcrumbs
+theme: bones_theme
+region: header
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: 256b97d0-44fc-4431-b904-4278f0810d63
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - bones_theme
+_core:
+  default_config_hash: z1vG8U4zKU47ZkfLLG0R-z4hSJaY4KjW-nBVJR8AoOY
+id: bones_theme_tools
+theme: bones_theme
+region: header
+weight: -5
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 7608ddea-bbf7-4fa7-8cc1-8a488146e812
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bones_theme
+_core:
+  default_config_hash: 9rnPCNqk8Q-IEntm5zyaOJCd-K54A6d6Z28ZsceGU34
+id: bones_theme_page_title
+theme: bones_theme
+region: content
+weight: -10
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

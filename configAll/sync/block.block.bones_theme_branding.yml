@@ -1,0 +1,25 @@
+uuid: 7c279a7f-bde5-42d9-b8a7-478e81c6bd19
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bones_theme
+_core:
+  default_config_hash: l1DGa3w7PC0OXk--Nd0AVsZABIBbcDlvwDMGvSgN14s
+id: bones_theme_branding
+theme: bones_theme
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

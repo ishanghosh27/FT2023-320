@@ -1,0 +1,25 @@
+uuid: 3e62a66e-b43f-48d1-8824-4040e7caecbc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b6d75bdc-bc10-41a9-b71e-49b6128bdc78'
+  module:
+    - block_content
+  theme:
+    - bones_theme
+id: footerlinks
+theme: bones_theme
+region: footer
+weight: -7
+provider: null
+plugin: 'block_content:b6d75bdc-bc10-41a9-b71e-49b6128bdc78'
+settings:
+  id: 'block_content:b6d75bdc-bc10-41a9-b71e-49b6128bdc78'
+  label: 'Footer Links'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: bd051556-f5e0-4d91-a27d-bd42de4ada15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_goals
+  module:
+    - text
+    - user
+id: user.user.field_goals
+field_name: field_goals
+entity_type: user
+bundle: user
+label: Goals
+description: 'Enter Your Goals Here'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
